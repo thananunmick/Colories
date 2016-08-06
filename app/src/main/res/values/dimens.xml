@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tvColories">50sp</dimen>
+    <dimen name="tvColoriesMargin">100dp</dimen>
+    <dimen name="btnStartMarginBottom">50dp</dimen>
+    <dimen name="btnStartMarginLeft">20dp</dimen>
+    <dimen name="btnStartMarginRight">20dp</dimen>
+</resources>

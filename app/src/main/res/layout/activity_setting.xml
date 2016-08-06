@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.colories.colories.SettingActivity">
+
+
+        <RadioGroup
+            android:id="@+id/rgLevel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:textSize="50sp"
+                android:text="@string/level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:textSize="20sp"
+                android:text="@string/easy"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/radioButton2"
+                android:freezesText="true"/>
+
+            <RadioButton
+                android:textSize="20sp"
+                android:text="@string/medium"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/radioButton"
+                android:freezesText="true"/>
+
+            <RadioButton
+                android:id="@+id/rbHard"
+                android:textSize="20sp"
+                android:text="@string/hard"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:freezesText="true"/>
+
+        </RadioGroup>
+
+</LinearLayout>

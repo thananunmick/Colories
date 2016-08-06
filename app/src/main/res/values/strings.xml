@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Colories</string>
+    <string name="colories">COLORIES</string>
+    <string name="start">Start</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="level">Level</string>
+</resources>

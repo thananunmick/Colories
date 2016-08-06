@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.colories.colories.WelcomeActivity">
+
+
+    <TextView
+        android:text="@string/colories"
+        android:textSize="@dimen/tvColories"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/tvColoriesMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ru.katso.livebutton.LiveButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/start"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/btnStartMarginBottom"
+        android:layout_marginLeft="@dimen/btnStartMarginLeft"
+        android:layout_marginRight="@dimen/btnStartMarginRight"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:backgroundColor="#F57F76"
+        livebutton:shadowColor="#b16262"/>
+
+</RelativeLayout>
