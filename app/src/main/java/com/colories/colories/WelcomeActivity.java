@@ -67,5 +67,4 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onRestoreInstanceState(savedInstanceState);
     }
 
-    //this is a comment
 }
